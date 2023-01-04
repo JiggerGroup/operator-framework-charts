@@ -3,12 +3,12 @@ entries:
   operator-framework-olm-crds:
   - apiVersion: v2
     appVersion: 0.22.0
-    created: "2023-01-04T19:12:22.3440391Z"
+    created: "2023-01-04T19:13:28.6451732Z"
     description: A Helm chart for Kubernetes
-    digest: 4f2442be339f8ad8d8189b7288f4b88da0ac04cbc993352c1427023387446873
+    digest: fe536da46fa1fcaf8a4255c87e6415e3dd4f4b105526dde938c094876fc58bc9
     name: operator-framework-olm-crds
     type: application
     urls:
     - operator-framework-olm-crds/0.22.0.tgz
     version: 0.22.0
-generated: "2023-01-04T19:12:22.3410419Z"
+generated: "2023-01-04T19:13:28.641701Z"
