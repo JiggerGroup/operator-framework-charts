@@ -3,7 +3,7 @@ entries:
   operator-framework-olm-crds:
   - apiVersion: v2
     appVersion: 0.22.0
-    created: "2023-01-04T19:05:32.0988396Z"
+    created: "2023-01-04T19:09:13.1255061Z"
     description: A Helm chart for Kubernetes
     digest: 8bfa8ff3c0796537ecae92bd8f50528f74b82a53a63a70d28e8c1d36f2b91a66
     name: operator-framework-olm-crds
@@ -13,7 +13,7 @@ entries:
     version: 0.22.0
   - apiVersion: v2
     appVersion: 0.22.0
-    created: "2023-01-04T19:05:32.1022978Z"
+    created: "2023-01-04T19:09:13.1289539Z"
     description: A Helm chart for Kubernetes
     digest: 2c1fa10ec73cdacb6ef618cf0a44f128d3000ee6e60ca246d538a96a31d1e95e
     name: operator-framework-olm-crds
@@ -23,7 +23,7 @@ entries:
     version: 0.22.0
   - apiVersion: v2
     appVersion: v0.22.0
-    created: "2023-01-04T19:05:32.1058338Z"
+    created: "2023-01-04T19:09:13.1317151Z"
     description: A Helm chart for Kubernetes
     digest: 8dabc721e714211b5de3e07a874b4917d87b99fb9321f1be680b7ab96965df3f
     name: operator-framework-olm-crds
@@ -31,4 +31,14 @@ entries:
     urls:
     - https://jiggergroup.github.io/operator-framework-charts/operator-framework-olm-crds/operator-framework-olm-crds-v0.22.0.tgz
     version: v0.22.0
-generated: "2023-01-04T19:05:32.0958152Z"
+  - apiVersion: v2
+    appVersion: 0.22.0
+    created: "2023-01-04T19:09:13.1349308Z"
+    description: A Helm chart for Kubernetes
+    digest: c1611449340449362d1d55d7e825c95263da38e9a9b6290653b21895b9b7b378
+    name: operator-framework-olm-crds
+    type: application
+    urls:
+    - https://jiggergroup.github.io/operator-framework-charts/operator-framework-olm-crds/operator-framework-olm-crds/0.22.0.tgz
+    version: 0.22.0
+generated: "2023-01-04T19:09:13.1227107Z"
