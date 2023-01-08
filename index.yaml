@@ -3,7 +3,7 @@ entries:
   crds:
   - apiVersion: v2
     appVersion: 0.22.0
-    created: "2023-01-08T13:16:48.8070142Z"
+    created: "2023-01-08T13:17:47.1477762Z"
     description: A Helm chart for Kubernetes
     digest: a4ccea2993cae5e63b84198c00718d97a2e6e6b3be8fbe8524d91c7222cf29b7
     name: crds
@@ -14,7 +14,21 @@ entries:
   olm:
   - apiVersion: v2
     appVersion: 0.22.0
-    created: "2023-01-08T13:16:48.8112052Z"
+    created: "2023-01-08T13:17:47.1519231Z"
+    dependencies:
+    - condition: crds.enabled
+      name: crds
+      repository: https://jiggergroup.github.io/operator-framework-charts
+      version: 0.22.0
+    description: A Helm chart for Kubernetes
+    digest: 13725b4c416238d75a4302edb31d3ae0a4c6d39797c2a08059c3f3fe306d7fd0
+    name: olm
+    urls:
+    - olm/0.22.0.tgz
+    version: 0.22.0
+  - apiVersion: v2
+    appVersion: 0.22.0
+    created: "2023-01-08T13:17:47.1551937Z"
     dependencies:
     - condition: crds.enabled
       name: crds
@@ -26,4 +40,4 @@ entries:
     urls:
     - operator-framework-olm/0.22.0.tgz
     version: 0.22.0
-generated: "2023-01-08T13:16:48.8039842Z"
+generated: "2023-01-08T13:17:47.1447958Z"
